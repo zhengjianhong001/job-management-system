@@ -1,0 +1,425 @@
+
+.menu_wrap a {  
+    width: 90px;
+    height: 41px;
+}
+.menu_wrap .on:after{
+     background: #eee;
+    content: "";
+    display: block;
+    height: 10px;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    margin-top: -5px;
+    transform: rotate(45deg);
+    width: 10px;
+}
+
+/*上传菜谱页面*/
+.file {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+
+/*个人中心|菜谱页面*/
+.cook_navigation{
+    display: inline-block;
+    margin: 0 15px 0 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    height: 30px;
+}
+.cook_navigation_on{
+    color: #ff6767;
+    border-bottom: 3px solid #ff6767;
+}
+.cook_navigation:hover{
+    color: #ff6767;
+    text-decoration: none;
+}
+.cook_navigation_bar{
+    height: 20px;
+    position: relative;
+    top: 15px;
+}
+.mc_cookbook{
+    height: 45px;
+    width:1180px;
+    margin-left:10px;
+    border-bottom: 1px solid #eee;
+}
+.cook_navigation_btn{
+    border: 1px solid #ff6767;
+    border-radius: 5px;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0 0 10px;
+    padding: 0 10px;
+    background: #ff6767;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+}
+
+.my_cookbook_list{
+    width: 1180px;
+    height: 200px;
+    position: relative;
+    left: 130px;
+    top: 50px;
+}
+.my_cookbook_list_img{
+    width: 180px;
+    height: 180px;
+
+}
+.my_cookbook_list_ul{
+width: 1180px;margin-left:0px;    
+}
+.my_cookbook_list_ul li{
+    border-bottom: 1px dotted #d4d4d4;
+    display: block;
+    display: table;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+.my_cookbook_list_ul li:hover{
+    background-color: #f8f7f7;
+
+}
+.my_cookbook_list_detail{
+    position: relative;
+    left: 200px;
+    top: -120px;
+    width: 600px;
+}
+.my_cookbook_list_detail h2 a{
+    color: #333;
+    font-size: 20px;
+}
+.my_cookbook_list_detail h2 a:hover{
+    color: #ff6767;
+    text-decoration: none;
+}
+.my_cookbook_list_detail_p{
+    margin-left: 10px;
+    color: #999;
+}
+.del{
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -150px;
+    margin-left: 950px;
+    text-decoration: none;
+    width: 90px;
+}
+.del:hover{
+    background-color: #ff6767;
+    color: #fff;
+     text-decoration: none;
+
+}
+/*******************************/
+/*会员中心页面*/
+.mc_center_top_det1{
+
+    position:relative;
+    top:20px;
+    left:-20px;
+}
+.mc_center_top_det2{
+    position:relative;
+    top:-33px;
+    left:50px;
+}
+.mc_center_top{
+    width: 100px;
+    margin-left: 10px;
+}
+.mc_center_top ul li a{
+    text-align: center;
+    color: black;
+}
+.mc_center_top ul li a p{
+    margin-top: -18px;
+}
+.mc_center_top ul li a:hover{
+    text-decoration: none;
+    color: #ff6767;
+}
+/*************************/
+/*个人资料页面*/
+.mc_info_img{
+    margin-top: 50px;
+    color: blue;
+    width: 100%;
+}
+.mc_info_img ul{
+    margin:0;
+}
+.mc_info_img ul li{
+       padding: 0 0 15px 0;
+}
+.mc_info_img ul li label{
+    color: #888;
+    cursor: default;
+}
+.mc_info_img ul li input{
+    font-size: 14px;
+    margin-top: -20px;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 1%;
+    padding: 3px 0;
+}
+.mc_info_img ul li select{
+    margin-top: -20px;
+}
+.mc_info_email{
+    width: 40%;
+}
+.mc_info_write{
+    width: 70%;
+}
+.inputS{
+     width: 25%;
+    font-size: 14px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 1%;
+    padding: 3px 0;
+}
+.tip{
+    color: #999;
+    position: relative;
+    top: -15px;
+}
+
+.mc_info_sex2{
+    position: relative;
+    left: 0;
+    top:-10px;
+    color: black;
+}
+.mc_info_sex1{
+    position: relative;
+    left: -80px;
+    top:-10px;
+    color: black;
+}
+/*发布话题页面*/
+.mc_edt_con{
+    width: 100%;
+}
+.mc_edt_con ul{
+    margin: 0;
+    padding: 0;
+}
+.mc_edt_con ul li{
+    padding-bottom: 20px;
+}
+.mc_edt_con ul li label{
+    cursor: default;
+}
+.mc_edt_con ul li label{
+    color: #888;
+}
+.mc_edt_con ul li textarea{
+    font-size: 14px;
+    width: 70%;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    resize: both;
+    height: 120px;
+    padding: 3px 1%;
+    margin-top: -20px;
+}
+.mc_edt_con ul li .file{
+    margin-top: -20px;
+    height: 20px;
+}
+.mc_edt_con ul li input{
+    margin-top: -20px;
+}
+/*菜谱收藏页面*/
+.topi_collect_user_img{
+    border-radius: 50%;
+     height: 40px; 
+     width: 40px;
+}
+.topi_collect_con{
+    width: 820px;
+    height: 200px;
+    position: relative;
+    left: 50px;top: -50px;
+}
+.topi_collect_name{
+    color: #333;
+    font-size: 14px;
+    line-height: 130%; 
+    padding: 0 0 6px;
+}
+.topi_collect_name a{
+    color: #333;
+}
+.topi_collect_name span{
+    color: #666;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.topi_collect_say{
+    color: #333;
+    font-size: 14px;
+    max-height: 45px;
+}
+.del>p{
+    margin-left: 30px;
+}
+/*话题详情页*/
+.topi_page_title{
+    width: 40%;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    margin-left: 190px;
+    margin-top: 100px;
+    padding-bottom: 5px;
+}
+.topi_page_title>span{
+    border-bottom: 3px solid #ff6767;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ff6767;
+    padding-bottom: 5px;
+}
+.topi_page_con{
+    width: 70%;
+    
+    margin-left: 190px;
+}
+.topi_page_head_img{
+    position: relative;top: 25px;
+}
+.topi_page_head_img>img{
+    width: 48px;
+    height: 48px;
+    margin: 0 10px 0 0; 
+    border-radius: 50%;
+}
+.topi_page_right{
+    width: 850px;
+   
+    top:-20px;
+    position: relative;
+    left: 60px;
+}
+.topi_page_userName{
+    color: #6599ff; font-size: 20px;
+}
+.topi_page_date{
+    margin-left: 30px;color: #999;
+}
+.topi_page_say{
+    color: #666;
+    font-size: 16px;
+    position: relative;
+    top: 30px;letter-spacing: 2px;
+}
+.topi_page_imgs{
+    width: 450px;margin-top:50px;
+}
+.topi_page_video{
+    text-align:center;
+}
+.topi_page_video video{
+    background-color: black;
+}
+
+.topi_page_img>img{
+    max-width: 450px;margin: 10px 0 0 0;
+    width: auto;
+}
+/*评论*/
+#comments{
+    width: 40%;clear: both;
+        margin-left: 200px;
+   
+}
+#comments_li{
+    height: 75px;
+    background-color: #fff;
+    border-bottom: 1px dotted #e4e4e4;
+}
+#comments_li div{
+    min-height: 72px;
+    line-height: 72px;
+}
+.comments_img{
+    border-radius: 50%;width: 48px;height: 48px;
+}
+.comments_name{
+    color: #6599ff;
+    margin-left: -10px;
+    position: relative;top: -10px;
+}
+.comments_time{
+    color: #666;position: relative;top: -10px;
+}
+.comments_con{
+    color: #000;
+    position: relative;
+    top: 15px;left: -130px;
+}
+.commenter_img{
+    border-radius: 50%;
+    width: 48px;height: 48px;
+}
+.commenter_text{
+    padding: 5px 0 5px 5px;
+}
+.commenter_texts{
+    overflow: hidden;
+    overflow-y: auto;
+    height: 90px;
+    line-height: 20px;
+    font-size: 14px;
+    width: 95%;
+    border: 0;
+    outline: 0;
+    vertical-align: top;   
+     border: 1px solid #ccc;  
+       text-shadow: none;
+}

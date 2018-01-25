@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title><?php echo $title; ?></title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="../assets/js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/login.js"></script>
+<link href="../assets/css/login2.css" rel="stylesheet" type="text/css" />
+<link href="../assets/images/header.ico" type="image/x-icon" rel="shortcut icon" />
+</head>
+<body>
+<h1>校园课堂作品提交与互评系统<sup>V2018</sup></h1>
+<div class="login" style="margin-top:50px;">
+<div class="header">
+        <div class="switch" id="switch"><a class="<?php if(isset($_POST['get_password'])){echo 'switch_btn';} else echo 'switch_btn_focus';  ?>" id="switch_qlogin" href="javascript:void(0);" tabindex="7">快速登录</a>
+			<a class="<?php if(isset($_POST['get_password'])){echo 'switch_btn_focus';} else echo 'switch_btn';  ?>" id="switch_login" href="javascript:void(0);" tabindex="8">找回密码</a><div class="switch_bottom" id="switch_bottom" style="<?php if(isset($_POST['get_password'])){echo 'position: absolute; width: 64px; left: 154px;';} else echo 'position: absolute; width: 64px; left: 0px;';  ?>"></div>
+        </div>
+    </div>
+    
